@@ -48,7 +48,7 @@
 
 .teclado_chabe:active       /*cor muda ao clicar na letra/botão*/
 {
-    background: rgba(255, 255, 255, 0.12);
+    background:rgba(255,255,255,0.12);
 }
 
 .teclado_chabe--wide        /*tecla backspace*/
@@ -61,7 +61,7 @@
     max-width: 500px;/*para não ficar muito grande em monitores grandes*/
 }
 
-.ativa0::after
+.teclado_chabe--activo::after
 {
     content:'';
     top: 10px;
@@ -72,7 +72,7 @@
     background: rgba(0,0,0,0.4);
     border-radius: 50%;
 }
-.ativa1::after
+.teclado_chabe--activ1::after
 {
    background: #08ff00;
 }
